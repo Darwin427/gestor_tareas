@@ -1,18 +1,58 @@
-# gestor_tareas
+#  Gestor de Estudio Personal
 
-Gestionar tareas
+Aplicación desarrollada en Flutter como proyecto académico. Permite gestionar tareas, notas y apuntes organizados por materias.
 
-## Getting Started
+##  Funcionalidades
 
-This project is a starting point for a Flutter application.
+-  Visualización de tareas pendientes
+-  Creación de notas
+-  Organización por materias
+-  Prioridades (Alta, Media, Baja)
+-  Fecha automática en cada nota
 
-A few resources to get you started if this is your first Flutter project:
+##  Pantallas
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+1. HomeScreen:
+   - Muestra tareas pendientes
+   - Indica materia y prioridad
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# gestor_tareas
+2. DetailScreen:
+   - Información detallada de una tarea
+
+3. NotesScreen:
+   - Lista de notas
+
+4. CategoriesScreen:
+   - Materias y apuntes organizados
+
+##  Estructura
+
+La aplicación está organizada de la siguiente forma:
+
+Scaffold → Column → ListView → Container → Text
+
+Se utilizaron widgets como:
+- Column y Row
+- Container
+- SizedBox
+- ListView
+- Stack
+- Image
+
+##  Tecnologías
+
+- Flutter
+- Dart
+
+##  Objetivo
+
+Desarrollar una aplicación funcional cumpliendo requisitos de:
+- Navegación entre pantallas
+- Uso de StatelessWidget
+- Diseño responsivo
+
+---
+
+Desarrollado por Darwin Marin 
+
+Repositorio: https://github.com/Darwin427/gestor_tareas.git
